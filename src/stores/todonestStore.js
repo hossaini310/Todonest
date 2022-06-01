@@ -63,7 +63,6 @@ export const useTodonestStore = defineStore('todonest', {
         completed: false,
         updated_at: new Date().toISOString(),
       };
-      console.log(newTodo);
       this.todos.push(newTodo);
       this.searchInput = '';
       saveData();
@@ -118,7 +117,7 @@ export const useTodonestStore = defineStore('todonest', {
         updated_at,
       };
     },
- 
+
     fillStore() {
       if (localStorage.getItem('todonest')) {
         const datenEntschluesselt = JSON.parse(
