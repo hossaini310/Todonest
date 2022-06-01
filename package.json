@@ -1,0 +1,31 @@
+{
+  "name": "todonest",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.6.3",
+    "@heroicons/vue": "^1.0.6",
+    "@tailwindcss/forms": "^0.4.1",
+    "axios": "^0.26.1",
+    "encrypt-storage": "^2.2.10",
+    "pinia": "^2.0.14",
+    "tailwindcss-interaction-variants": "^5.0.0",
+    "tw-elements": "^1.0.0-alpha12",
+    "vue": "^3.2.29",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.4",
+    "autoprefixer": "^10.4.4",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "vite": "^2.8.6"
+  }
+}
