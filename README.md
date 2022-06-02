@@ -1,3 +1,4 @@
 # Todonest
 
-# [DEMO](https://todonest.hossaini.dev/)
+<p><a href="https://todonest.hossaini.dev/" target="_blank">Todonest DEMO</a></p>
+
