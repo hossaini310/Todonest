@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-2xl mx-auto mt-8">
+  <div>
     <UncompletedTodosComp></UncompletedTodosComp>
     <CompletedTodosComp></CompletedTodosComp>
   </div>

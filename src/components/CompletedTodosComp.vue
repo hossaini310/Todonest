@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-2xl px-3 mx-auto mt-8">
+  <div class="px-3 mt-8">
     <div class="text-left mr-3 mb-2 text-mako-200 text-[10px] sm:text-xs">
       Completed Todos: <span class="font-black">{{ store.getCompletedTodos.length }}</span>
     </div>

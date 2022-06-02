@@ -1,7 +1,8 @@
 <template>
-  <div class="container mx-auto text-center">
+  <div class="max-w-2xl mx-auto text-center">
     <div class="d-flex justify-content-center"><RouterView /></div>
   </div>
+
 </template>
 
 <script setup>
