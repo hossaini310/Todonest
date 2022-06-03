@@ -56,8 +56,13 @@ export const useTodonestStore = defineStore('todonest', {
     },
 
     addTodo() {
+      let id = 0;
+      if (this.todos.length == 0) id = 1;
+      else id = Math.max(...this.todos.map(({ todo_id }) => todo_id)) + 1;
+      console.log(id);
+
       const newTodo = {
-        todo_id: this.todos.length + 1,
+        todo_id: id,
         title: `${this.searchInput[0].toUpperCase()}${this.searchInput.slice(1)}`,
         description: '',
         completed: false,

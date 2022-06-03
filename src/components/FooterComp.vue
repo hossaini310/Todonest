@@ -1,21 +1,20 @@
 <template>
   <div
-    class="p-3 border-t-2 text-mako-100 flex justify-between w-500 space-x-20 sm:w-[672px] bottom-0 fixed border-mako-500 border-opacity-70"
+    class="p-3 border-t-2 text-mako-100 flex justify-between w-500 space-x-20 sm:w-[672px] mt-20 border-mako-500 border-opacity-70"
   >
-    <div class="flex justify-center space-x-6 text-sm">
+    <div class="flex justify-center space-x-6 text-xs">
       <span>2022</span
       ><span class="hover:text-mako-50"
         ><a href="https://www.hossaini.dev/" target="_blank">Hossaini Hosain</a></span
       >
     </div>
-    <div class="flex items-center text-sm">
+    <div class="flex items-center text-xs">
       This site is available on<!-- -->
       <a
         href="https://github.com/hossaini310/Todonest"
         rel="noreferrer"
         target="_blank"
         class="hover:text-mako-50"
-        aria-label="GitHub"
         ><svg
           width="32"
           height="32"

@@ -1,7 +1,8 @@
 <template>
-  <div>
+  <div class="px-3">
     <UncompletedTodosComp></UncompletedTodosComp>
     <CompletedTodosComp></CompletedTodosComp>
+    
   </div>
 </template>
 <script setup>

@@ -1,12 +1,14 @@
 <template>
-  <div class="mt-10">
-    <h1 class="my-7 text-xl sm:text-2xl font-bold">
-      Welcome
-      <br />
-      <span>this is your <span class="text-highlight font-black uppercase">Todonest</span></span>
-    </h1>
-    <SearchbarComp></SearchbarComp>
-    <TodosComp></TodosComp>
+  <div class="mt-10 flex min-h-screen flex-col">
+    <div>
+      <h1 class="my-7 text-xl sm:text-2xl font-bold">
+        Welcome
+        <br />
+        <span>this is your <span class="text-highlight font-black uppercase">Todonest</span></span>
+      </h1>
+      <SearchbarComp></SearchbarComp>
+      <TodosComp></TodosComp>
+    </div>
     <FooterComp></FooterComp>
   </div>
 </template>
