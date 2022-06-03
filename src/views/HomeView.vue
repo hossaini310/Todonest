@@ -1,6 +1,6 @@
 <template>
   <div class="mt-10 flex min-h-screen flex-col">
-    <div>
+    <div class="mb-20">
       <h1 class="my-7 text-xl sm:text-2xl font-bold">
         Welcome
         <br />

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="p-3 border-t-2 text-mako-100 flex justify-between w-500 space-x-20 sm:w-[672px] mt-20 border-mako-500 border-opacity-70"
+    class="p-3 border-t-2 text-mako-100 flex justify-between w-500 space-x-20 sm:w-[672px] mt-auto border-mako-500 border-opacity-70"
   >
     <div class="flex justify-center space-x-6 text-xs">
       <span>2022</span
