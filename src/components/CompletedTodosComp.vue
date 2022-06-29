@@ -27,17 +27,22 @@
         </div>
       </div>
       <div class="flex items-center my-auto row-reverse text-right">
-        <div class="w-10 mr-3 mb-2 text-mako-200 opacity-80 text-[10px] sm:text-[12px]">
+        <div class="w-12 mr-3 text-mako-200 opacity-80 text-[10px] sm:text-[12px]">
           {{ getFormatDate(todo.updated_at) }}
         </div>
         <Menu as="div" class="relative inline-block">
-          <div class="flex">
-            <MenuButton class="block">
-              <i
-                class="fi fi-sr-menu-dots text-mako-200 opacity-70 hover:text-mako-50 hover:text-opacity-60"
-              ></i>
-            </MenuButton>
-          </div>
+          <MenuButton class="block justify-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              class="w-5 fill-mako-200 hover:fill-mako-50 hover:opacity-60"
+            >
+              <path
+                d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+              />
+            </svg>
+          </MenuButton>
 
           <transition
             enter-active-class="transition ease-out duration-100"
@@ -61,8 +66,18 @@
                       :data-bs-target="`#editTodoModaltodo${todo.todo_id}`"
                       data-bs-toggle="modal"
                     >
-                      <i class="fi fi-sr-pencil mr-3"></i>
-                      Edit
+                      <div class="flex space-x-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          class="w-5 fill-mako-100"
+                        >
+                          <path
+                            d="M15.586 3a2 2 0 0 1 2.828 0L21 5.586a2 2 0 0 1 0 2.828L19.414 10 14 4.586 15.586 3zm-3 3-9 9A2 2 0 0 0 3 16.414V19a2 2 0 0 0 2 2h2.586A2 2 0 0 0 9 20.414l9-9L12.586 6z"
+                          />
+                        </svg>
+                        <span>Edit</span>
+                      </div>
                     </button>
                   </MenuItem>
                 </form>
@@ -74,8 +89,23 @@
                         'block w-full text-left px-4 py-2 text-sm',
                       ]"
                     >
-                      <i class="fi fi-sr-trash mr-3"></i>
-                      Delete
+                      <div class="flex space-x-4">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          class="w-4 fill-mako-100"
+                        >
+                          <g id="32843b47-c45c-4436-b212-99015eb713a5" data-name="delete">
+                            <path
+                              d="M23,2H17V0H7V2H1A1,1,0,0,0,0,3V5A1,1,0,0,0,1,6H23a1,1,0,0,0,1-1V3A1,1,0,0,0,23,2Z"
+                            />
+                            <path
+                              d="M18.28,24H5.82a2,2,0,0,1-2-1.75L2,8H22L20.27,22.25A2,2,0,0,1,18.28,24Z"
+                            />
+                          </g>
+                        </svg>
+                        <span>Delete</span>
+                      </div>
                     </button>
                   </MenuItem>
                 </form>

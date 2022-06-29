@@ -14,7 +14,7 @@
         />
       </div>
       <button
-        class="border-1 flex items-center border-highlight bg-highlight font-black text-mako-50 rounded-lg px-4 py-5 whitespace-nowrap text-xs uppercase hover:opacity-90"
+        class="border-1 flex items-center border-highlight bg-highlight font-black text-mako-50 rounded-lg px-4 py-5 text-xs uppercase hover:opacity-90"
       >
         <svg
           width="512"
